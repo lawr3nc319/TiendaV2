@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 1, 2023, 7:03:01 PM
+    Author     : lawwb
+*/
+
+/* comentario */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 80px 20px 0;
+    background-color: pink;
+}
+
+header {
+    position: fixed;
+    background-color: red;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+}
+
+aside {
+    position: fixed;
+    background-color: blue;
+    top: 20%;
+    left: 0;
+    height: 75%;
+    width: 20%;
+}
+
+section {
+    overflow-y: scroll;
+    position: fixed;
+    background-color: orange;
+    top: 20%;
+    left: 20%;
+    height: 75%;
+}
